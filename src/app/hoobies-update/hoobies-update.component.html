@@ -1,0 +1,7 @@
+<div class="container align-self-left col-6 mt-5">
+    <h2 class="text-center">Registro de Nuevos Hoobies</h2>
+    <form id="form" #f="ngForm" (ngSubmit) = "recoverDataHoobie(f)" novalidate>
+    <input class="form-control" type="text" #nameHoobie="ngModel" ngModel name="nameHoobie" placeholder="Nombre del Hoobie">
+    <button type="submit" class="form-control btn btn-primary mt-3 col-4">Agregar Hoobie</button>
+</form>
+</div>

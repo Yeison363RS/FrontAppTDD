@@ -1,0 +1,19 @@
+<div class="navBar ">
+  <ul class="nav justify-content-end">
+      <li class="navp">
+        <a class="nav-link active" href=""><b>Grupos</b></a>
+      </li>
+      <li class="navp">
+        <a class="nav-link" href="update"><b>Hoobies</b></a>
+      </li>
+      <li class="navp">
+        <a class="nav-link" href="registry"><b>Registrarme</b></a>
+      </li>
+      <li class="navp">
+        <a class="nav-link" *ngIf="!isLoginUser()" href="login"><b>Login</b></a>
+      </li>
+      <li class="navp" *ngIf="isLoginUser()" (click)="logout()">
+        <a class="nav-link"><b>Salir</b></a>
+      </li>
+  </ul>
+</div>

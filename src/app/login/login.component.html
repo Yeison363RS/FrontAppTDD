@@ -1,0 +1,8 @@
+<div class="container align-self-left col-6 mt-5">
+    <h2 class="text-center ">Iniciar Sesión</h2>
+    <form id="form" #f="ngForm" (ngSubmit) = "recoverDataUser(f)" novalidate>
+        <input class="form-control mt-3" type="text" #nameHoobie="ngModel" ngModel name="name" placeholder="Nombre Usuario">
+        <input class="form-control mt-3" type="text" #nameHoobie="ngModel" ngModel name="password" placeholder="Apellido Usuario">
+        <button type="submit" class=" form-control btn btn-primary mt-3 col-4">Iniciar Sesión</button>
+    </form>
+</div>

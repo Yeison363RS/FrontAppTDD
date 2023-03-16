@@ -1,0 +1,11 @@
+<div class="container align-self-left col-6 mt-5">
+    <h2 class="text-center ">Registro de nuevo Usuario</h2>
+    <form id="form" #f="ngForm" (ngSubmit) = "recoverDataPerson(f)" novalidate>
+        <input class="form-control mt-3" type="text" #nameHoobie="ngModel" ngModel name="nameHoobie" placeholder="Nombre Usuario">
+        <input class="form-control mt-3" type="text" #nameHoobie="ngModel" ngModel name="lastName" placeholder="Apellido Usuario">
+        <input class="form-control mt-3" type="text" #nameHoobie="ngModel" ngModel name="country" placeholder="Nombre Pais">
+        <input class="form-control mt-3" type="text" #nameHoobie="ngModel" ngModel name="department" placeholder="Nombre Departamento">
+        <input class="form-control mt-3" type="text" #nameHoobie="ngModel" ngModel name="city" placeholder="Nombre Ciudad">
+        <button type="submit" class=" form-control btn btn-primary mt-3 col-4">Registrarme</button>
+    </form>
+</div>

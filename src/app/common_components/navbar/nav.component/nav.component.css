@@ -1,0 +1,22 @@
+.navBar{
+    box-shadow: 5px 4px 3px rgb(130, 126, 126) ;
+}
+.nav-item{
+    color: black;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: #5CFAF8;
+}
+.nav{
+    background-color: #007BFF;
+}
+li{
+    color:white;
+    cursor: pointer;
+}
+li:hover{
+    color:#5CFAF8;
+}

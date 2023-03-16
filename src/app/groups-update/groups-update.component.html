@@ -1,0 +1,8 @@
+<div class="container align-self-left col-6 mt-5">
+    <h2 class="text-center">Agregarme un nuevo Grupo</h2>
+    <form id="form" #f="ngForm" (ngSubmit) = "recoverDataGroup(f)" novalidate>
+        <input class="form-control mt-3" type="text" #nameHoobie="ngModel" ngModel name="nameGroup" placeholder="Nombre del grupo">
+        <input class="form-control mt-3" type="text" #nameHoobie="ngModel" ngModel name="location" placeholder="Ubicación">
+        <button type="submit" class="form-control btn btn-primary mt-3 col-4">Agregar Grupo</button>
+    </form>
+</div>
